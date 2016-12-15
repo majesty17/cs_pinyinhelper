@@ -1,0 +1,9 @@
+E:\代码\vs\拼音助手\拼音助手\bin\Debug\拼音助手.exe
+E:\代码\vs\拼音助手\拼音助手\bin\Debug\拼音助手.pdb
+E:\代码\vs\拼音助手\拼音助手\bin\Debug\NPinyin.dll
+E:\代码\vs\拼音助手\拼音助手\obj\x86\Debug\拼音助手.csprojResolveAssemblyReference.cache
+E:\代码\vs\拼音助手\拼音助手\obj\x86\Debug\拼音助手.Form1.resources
+E:\代码\vs\拼音助手\拼音助手\obj\x86\Debug\拼音助手.Properties.Resources.resources
+E:\代码\vs\拼音助手\拼音助手\obj\x86\Debug\拼音助手.csproj.GenerateResource.Cache
+E:\代码\vs\拼音助手\拼音助手\obj\x86\Debug\拼音助手.exe
+E:\代码\vs\拼音助手\拼音助手\obj\x86\Debug\拼音助手.pdb
