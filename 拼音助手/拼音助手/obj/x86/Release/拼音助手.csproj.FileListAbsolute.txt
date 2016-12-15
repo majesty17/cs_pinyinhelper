@@ -1,0 +1,8 @@
+E:\git\cs_pinyinhelper\拼音助手\拼音助手\obj\x86\Release\拼音助手.Form1.resources
+E:\git\cs_pinyinhelper\拼音助手\拼音助手\obj\x86\Release\拼音助手.Properties.Resources.resources
+E:\git\cs_pinyinhelper\拼音助手\拼音助手\obj\x86\Release\拼音助手.csproj.GenerateResource.Cache
+E:\git\cs_pinyinhelper\拼音助手\拼音助手\bin\Release\拼音助手.exe
+E:\git\cs_pinyinhelper\拼音助手\拼音助手\bin\Release\拼音助手.pdb
+E:\git\cs_pinyinhelper\拼音助手\拼音助手\bin\Release\NPinyin.dll
+E:\git\cs_pinyinhelper\拼音助手\拼音助手\obj\x86\Release\拼音助手.exe
+E:\git\cs_pinyinhelper\拼音助手\拼音助手\obj\x86\Release\拼音助手.pdb

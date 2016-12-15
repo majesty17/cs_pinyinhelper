@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NPinyin">
-      <HintPath>..\..\..\vs2008\Projects\work2pinyin\NPinyin.dll</HintPath>
+      <HintPath>..\..\..\..\代码\vs2008\Projects\work2pinyin\NPinyin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
