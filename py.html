@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>拼音助手</title> 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<style type="text/css">
+textarea {
+ width:100%; 
+ height:500px;
+ font-size:44px;
+}
+button {
+ width:49%;
+ font-size:64px;
+}
+div {
+	text-align:center;
+}
+</style>
+
+
+
+  </head> 
+  <body>
+  <div name='editor'>
+    <textarea class="editarea" type="text" name="editarea" placeholder="请输入内容"></textarea>
+  </div>
+  <div name='btn'>
+	<button class='btn_clear' type="button">清除</button>
+	<button class='btn_copy' type="button">全选</button>
+  </div>
+  
+    <script>
+$('.btn_clear').click(function(e){
+    $('.editarea').val('');
+});
+$('.btn_copy').click(function(e){
+    $('.editarea').select();
+	//document.execCommand('copy');
+	//alert("复制成功！");
+});
+$('.editarea').bind('input propertychange', function() {
+    var str=$('.editarea').val();
+	str=str.replace("a1", "ā");
+	str=str.replace("a2", "á");
+	str=str.replace("a3", "ǎ");
+	str=str.replace("a4", "à");
+	str=str.replace("o1", "ō");
+	str=str.replace("o2", "ó");
+	str=str.replace("o3", "ǒ");
+	str=str.replace("o4", "ò");
+	str=str.replace("e1", "ē");
+	str=str.replace("e2", "é");
+	str=str.replace("e3", "ě");
+	str=str.replace("e4", "è");
+	str=str.replace("i1", "ī");
+	str=str.replace("i2", "í");
+	str=str.replace("i3", "ǐ");
+	str=str.replace("i4", "ì");
+	str=str.replace("u1", "ū");
+	str=str.replace("u2", "ú");
+	str=str.replace("u3", "ǔ");
+	str=str.replace("u4", "ù");
+	str=str.replace("v1", "ū");
+	str=str.replace("v2", "ú");
+	str=str.replace("v3", "ǔ");
+	str=str.replace("v4", "ù");
+	console.log(str);
+	$('.editarea').val(str);
+});
+    </script>
+  
+  </body>
+ </html>
